@@ -1,6 +1,6 @@
 # Bank-APP
 
-# 🏦 Digital Bank Application
+# SBI Bank Application
 
 A modern and beginner-friendly **Bank Account Management Web App** built using  
 **HTML, CSS, and JavaScript (OOP Concepts)**.
