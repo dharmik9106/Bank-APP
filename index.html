@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SBI Bank App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>SBI Bank</h1>
+
+  <div class="card">
+    <h2>Create Account</h2>
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="number" id="start" placeholder="Opening Balance">
+    <select id="accountType">
+      <option value="">Select Account</option>
+      <option value="savings">Savings</option>
+      <option value="current">Current</option>
+    </select>
+    <button type="button" onclick="create()">Create Account</button>
+  </div>
+
+  <div class="card">
+    <h2>Transactions</h2>
+    <input type="number" id="amount" placeholder="Enter Amount">
+
+    <button type="button" onclick="deposit()">Add Fund</button>
+    <button type="button" onclick="withdraw()" class="danger">Withdraw</button>
+    <button type="button" onclick="status()" class="info">Account Status</button>
+  </div>
+
+  <div class="card output">
+    <p id="result">Create account to continue...</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
